@@ -19,6 +19,7 @@ a, a visited {
 	overflow: auto;
 	padding: 20px 10px;
 	color: #fff;
+	box-sizing: border-box;
 	}
 
 .nav-band {
@@ -26,6 +27,7 @@ a, a visited {
 	background: #999; 
 	overflow: auto;
 	padding: 0 10px;
+	box-sizing: border-box;
 	}
 
 .grey-band {
@@ -33,6 +35,7 @@ a, a visited {
 	background: #e6e6e6; 
 	overflow: auto;
 	padding: 20px 10px;
+	box-sizing: border-box;
 	}
 
 .footer-band {
@@ -41,6 +44,7 @@ a, a visited {
 	overflow: auto;
 	padding: 20px 10px;
 	color: #fff;
+	box-sizing: border-box;
 	}
 
 
@@ -126,7 +130,10 @@ a, a visited {
 }
 
 
-
+.para-border-top {
+	border-top: 1px solid;
+   	padding-top: 20px;
+}
 
 
 
