@@ -1,7 +1,8 @@
 body {
 	margin: 0 auto;
 	background: #e6e6e6;
-	font-family: arial, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
+
 }
 
 
@@ -14,7 +15,7 @@ a, a visited {
 
 .banner {
 	width:100%;
-	background: #29527A; 
+	background: #0071af; 
 	display: block;
 	overflow: auto;
 	padding: 20px 10px;
@@ -32,7 +33,7 @@ a, a visited {
 	background: #e6e6e6; 
 	display: block;
 	overflow: auto;
-	padding: 10px;
+	padding: 20px 10px;
 	}
 
 .footer {
@@ -53,7 +54,6 @@ a, a visited {
 
 .title {
 	font-size: 2.3em;
-	font-family: times, serif;
 }
 
 
@@ -63,19 +63,18 @@ a, a visited {
 
 
 .col1 {
-	width:75%;
+	width:65%;
 	float:left;
 }
 
 .col2 {
-	width:25%;
+	width:35%;
 	float:right;
 	text-align: right;
-	margin-top: 10px;
 }
 
 .main-content {
-	max-width:990px;
+	max-width:1010px;
 	margin:0 auto; 
 }
 
@@ -96,11 +95,21 @@ a, a visited {
 }
 
 .hero	{
-	font-size: 2.5em;
-	color: #29527A;
-	margin: 20px 0 0 0;
+	font-size: 1.6em;
+	color: #0071af;
+	margin: 20px 0 20px 0;
 	text-align: center;
+	padding: 0 75px 0 75px;
 }
+
+
+.wrapper {
+	background: #0071af;
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+}
+
 
 .col3 {
 	width:48%;
@@ -115,10 +124,9 @@ a, a visited {
 
 .heading {
 	font-size: 1.5em;
-	color: #29527A;
-	border-top: 1px solid;
-	border-color: #999;
-	padding: 10px 0 0 0;
+	border-bottom: 1px solid;
+	border-color: #fff;
+	padding: 0 0 10px 0;
 	margin: 30px 0 0 0;
 	clear: both;
 }
@@ -191,10 +199,10 @@ a, a visited {
 #menu li a {
 	display:block;
 	min-width:140px;
-	height: 50px;
+	height: 35px;
 	text-align: center;
-	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 35px;
 	color: #fff;
 	background: #888;
 	text-decoration: none;
