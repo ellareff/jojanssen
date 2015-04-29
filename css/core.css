@@ -101,6 +101,18 @@ a, a visited {
 	max-width: 49%;
 }
 
+
+
+.galimg {
+	display: inline;
+}
+
+.galimg img {
+	max-width: 30%;
+	margin: 0 29px 29px 0;
+}
+
+
 .hero	{
 	font-size: 1.6em;
 	color: #0071af;
