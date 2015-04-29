@@ -218,7 +218,7 @@ a, a visited {
 /*Style for menu links*/
 #menu li a {
 	display:block;
-	min-width:140px;
+	min-width:160px;
 	height: 35px;
 	text-align: center;
 	font-size: 0.9em;
