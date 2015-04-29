@@ -22,13 +22,19 @@
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 
-<link rel="stylesheet" type="text/css" href="css/core.css">
+<link rel="stylesheet" type="text/css" href="http://ellareff.github.io/jojanssen/css/core.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
     <script> 
     $(function(){
-      $("#includeHeader").load("header.html"); 
+      $("#includeHeader").load("http://ellareff.github.io/jojanssen/header.html"); 
+    });
+    </script> 
+
+    <script> 
+    $(function(){
+      $("#includeFooter").load("http://ellareff.github.io/jojanssen/footer.html"); 
     });
     </script> 
 
@@ -91,22 +97,7 @@
 </div>
 
 
-<div class="footer-band">
-<div class="content">
-
-<div class="col50L">
-<p><i class="fa fa-mobile"></i> &nbsp; 0274 741 981</p>
-<p><i class="fa fa-phone"></i> &nbsp; 09 292 7452</p>
-<p><i class="fa fa-fax"></i> &nbsp; 09 292 7454</p>
-<p><i class="fa fa-envelope"></i> &nbsp; janssenkaren3@gmail.com</p>
-</div>
-
-<div class="col50R">
-<p>Website designed and built by <i class="fa fa-copyright"></i> <a href="http://ellareff.github.io" target="_blank">Ellareff Design </a></p>
-</div>
-
-</div>
-</div>
+<div id="includeFooter"></div>
 
 </body>
 </html>
