@@ -112,6 +112,25 @@ a, a visited {
 	margin: 0 29px 29px 0;
 }
 
+.profile-image {
+	width:25%;
+	display: inline-block;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.profile-text {
+	width:74%;
+	display: inline-block;
+	float: right;
+}
+
+
+.profile-image img {
+	max-width: 100%;
+	margin: 20px 0 0 0;
+}
+
 
 .hero	{
 	font-size: 1.6em;
